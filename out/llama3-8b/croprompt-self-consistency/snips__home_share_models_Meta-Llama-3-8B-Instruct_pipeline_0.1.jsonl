@@ -1,0 +1,4202 @@
+[
+  {
+    "text": "I'd like to have this track onto my Classical Relaxations playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Classical Relaxations;entity_name=this track"
+  },
+  {
+    "text": "Add the album to my Flow Español playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Flow Español;playlist_owner=my;music_item=album"
+  },
+  {
+    "text": "add digging now to my Young at Heart playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Young at Heart;playlist_owner=my;entity_name=Digging Now"
+  },
+  {
+    "text": "add this song by Too Poetic to my Piano Ballads playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Piano Ballads;entity_name=this song;artist=Too Poetic;playlist_owner=my"
+  },
+  {
+    "text": "Add this album to Old School Death Metal",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=album;playlist=Old School Death Metal"
+  },
+  {
+    "text": "I need to add baro ferret to the Urban Hits under my name",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Urban Hits;playlist_owner=my;entity_name=baro ferret"
+  },
+  {
+    "text": "Add the album to the Might and Myth Power Metal playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Might and Myth Power Metal;music_item=album"
+  },
+  {
+    "text": "To the travelling playlist, please add this David Gahan song .",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=travelling;entity_name=song;artist=David Gahan"
+  },
+  {
+    "text": "Please add some Pete Townshend to my playlist Fiesta Hits con Lali",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Fiesta Hits;playlist_owner=my;entity_name=Pete Townshend;music_item=song"
+  },
+  {
+    "text": "I'd like for Kasey Chambers 's tune to be an addition to my Chips and Salsa playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Chips and Salsa;playlist_owner=my;entity_name=tune;artist=Kasey Chambers"
+  },
+  {
+    "text": "Add Recalled to Life to This Is Alejandro Fernández",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=This Is Alejandro Fernández;object_type=album"
+  },
+  {
+    "text": "add nuba to my Metal Party playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Metal Party;playlist_owner=my;entity_name=nuba"
+  },
+  {
+    "text": "Add jo stafford music to the workout twerkout playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=workout twerkout;entity_name=jo stafford;music_item=song"
+  },
+  {
+    "text": "Put Jean Philippe Goncalves onto my running to rock 170 to 190 bpm .",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Jean Philippe Goncalves;genre=Rock;music_item=track;service=unknown"
+  },
+  {
+    "text": "Add the song virales de siempre by the cary brothers to my gym playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=gym;playlist_owner=my;entity_name=virales de siempre;music_item=song;artist=cary brothers"
+  },
+  {
+    "text": "Onto jerry's Classical Moments in Movies , please add the album .",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist_owner=jerry's;music_item=album;entity_name=the album"
+  },
+  {
+    "text": "add Beyond the Valley of 1984 in playlist Folk Music At The Gaslight Café",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Folk Music;entity_name=Beyond the Valley of 1984;music_item=song;artist=At The Gaslight Café"
+  },
+  {
+    "text": "Add Jerry Calliste, Jr to my Te quiero playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist_owner=my;entity_name=Jerry Calliste, Jr;playlist=Te quiero"
+  },
+  {
+    "text": "Add porter wagoner to the The Sleep Machine Waterscapes playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=The Sleep Machine Waterscapes;entity_name=porter wagoner"
+  },
+  {
+    "text": "Add the artist mike to the Sexy as Folk playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Sexy as Folk;entity_name=artist;artist=mike"
+  },
+  {
+    "text": "Add Brazilian Flag Anthem to Top 100 Alternative Tracks on Spotify",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=Top 100 Alternative Tracks;service=Spotify;track=Brazilian Flag Anthem"
+  },
+  {
+    "text": "Add Andy Hunter to my Evening Commute playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Evening Commute;playlist_owner=my;entity_name=Andy Hunter"
+  },
+  {
+    "text": "Put petar georgiev kalica onto the Old School Hip Hop playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Old School Hip Hop;entity_name=petar georgiev kalica"
+  },
+  {
+    "text": "Can you add Larry Heard to my laundry playlist?",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=laundry;entity_name=Larry Heard"
+  },
+  {
+    "text": "Put Vandemataram Srinivas 's track onto HipHop Hot 50 .",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;track=Vandemataram Srinivas;playlist=HipHop Hot 50"
+  },
+  {
+    "text": "Add millie corretjer to the rhythm playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;entity_name=millie corretjer;playlist=rhythm playlist"
+  },
+  {
+    "text": "Add give us rest to my 70s Smash Hits playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=70s Smash Hits;playlist_owner=my"
+  },
+  {
+    "text": "add this track to my Hands Up playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Hands Up;playlist_owner=my;entity_name=this track;music_item=track"
+  },
+  {
+    "text": "I'd like for you to add bobby brown to my enamorándose playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist_owner=my;entity_name=bobby brown;playlist=enamorándose"
+  },
+  {
+    "text": "add Jonathan Sprout album to my this is miranda lambert playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=this is miranda lambert;playlist_owner=my;music_item=album;entity_name=Jonathan Sprout album;artist=Jonathan Sprout"
+  },
+  {
+    "text": "add ireland in the junior eurovision song contest 2015 to my Jazzy Dinner playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Jazzy Dinner;playlist_owner=my;entity_name=Ireland in the Junior Eurovision Song Contest 2015"
+  },
+  {
+    "text": "Add the album to the The Sweet Suite playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=The Sweet Suite;music_item=album"
+  },
+  {
+    "text": "Add sarah slean to my playlist Mellowed Out Gaming",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Mellowed Out Gaming;playlist_owner=my;entity_name=sarah slean"
+  },
+  {
+    "text": "Add this album to the Spanish Beat playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Spanish Beat"
+  },
+  {
+    "text": "Add lofty fake anagram to the la mejor música de bso playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=la mejor música de bso"
+  },
+  {
+    "text": "Add the track to the work playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=work"
+  },
+  {
+    "text": "Add a song to this is racionais mc's",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=song;artist=racionais mc's"
+  },
+  {
+    "text": "add track in my playlist called Hands Up",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist_owner=my;entity_name=Hands Up;music_item=track"
+  },
+  {
+    "text": "Can you put this song from Yutaka Ozaki onto my this is miles davis playlist?",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=this is miles davis;playlist_owner=my;entity_name=this song;artist=Yutaka Ozaki"
+  },
+  {
+    "text": "Add a track to playlist Cena con Amigos",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Cena con Amigos;entity_name=Amigos"
+  },
+  {
+    "text": "Add The Famous Flower of Serving-Men to my evening acoustic playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=evening acoustic;entity_name=The Famous Flower of Serving-Men;playlist_owner=my"
+  },
+  {
+    "text": "Add a song to Indie Hipster",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=song;playlist=Indie Hipster"
+  },
+  {
+    "text": "Add the 40 cal tune to the laundry playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=laundry;entity_name=40 cal tune"
+  },
+  {
+    "text": "Add the album to my Perfect Concentration playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Perfect Concentration;playlist_owner=my"
+  },
+  {
+    "text": "Add the Matt Murphy tune to the Flow Español playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Flow Español;entity_name=Matt Murphy tune"
+  },
+  {
+    "text": "add A Very Cellular Song to masters of metal playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=masters of metal;entity_name=A Very Cellular Song"
+  },
+  {
+    "text": "Can I put this tune onto my sin estrés playlist?",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=sin estrés;playlist_owner=my"
+  },
+  {
+    "text": "I'd like to add jordan rudess onto the Divertido para niños playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Divertido para niños;entity_name=jordan rudess"
+  },
+  {
+    "text": "Add kent james to the disney soundtrack.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;entity_name=Kent James;music_item=song;playlist=Disney Soundtrack"
+  },
+  {
+    "text": "Add the artist Adam Deibert to my Perfect Concentration playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Perfect Concentration;playlist_owner=my;entity_name=artist;music_item=artist;artist=Adam Deibert"
+  },
+  {
+    "text": "Can you put the artist Giovanni Giacomo Gastoldi onto the Chill Out Music playlist?",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Chill Out Music;entity_name=Giovanni Giacomo Gastoldi;artist=Giovanni Giacomo Gastoldi"
+  },
+  {
+    "text": "Add the album to the hot 50 playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=hot 50"
+  },
+  {
+    "text": "add the artist Pete Murray to my relaxing playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist_owner=my;entity_name=artist;artist=Pete Murray"
+  },
+  {
+    "text": "Add the track to the drum & breaks playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=drum & breaks"
+  },
+  {
+    "text": "For my fantastic workout can you add sara bareilles ?",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Sara Bareilles"
+  },
+  {
+    "text": "Add the boy george track to the Emo Forever playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Emo Forever;entity_name=boy george;music_item=track"
+  },
+  {
+    "text": "Add Ted Heath to the road trip playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=road trip playlist;entity_name=Ted Heath"
+  },
+  {
+    "text": "Can you add last of the ghetto astronauts to the playlist called black sabbath the dio years ?",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=black sabbath the dio years;entity_name=last of the ghetto astronauts"
+  },
+  {
+    "text": "Add this artist to Showstopper Being Mary Jane",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Showstopper Being Mary Jane"
+  },
+  {
+    "text": "put the artist onto Top Latin Alternative .",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Top Latin Alternative;entity_name=the artist"
+  },
+  {
+    "text": "Add Michael Wittig music to Country Icon playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Country Icon;entity_name=Michael Wittig;music_item=song"
+  },
+  {
+    "text": "add Highway Patrolman in my playlist this is al green",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=my;entity_name=Highway Patrolman;artist=Al Green"
+  },
+  {
+    "text": "Add Richard McNamara newest song to the Just Smile playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Just Smile;entity_name=Richard McNamara's newest song;playlist_owner=my"
+  },
+  {
+    "text": "Add Annesley Malewana album to playlist indietronic",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=album;artist=Annesley Malewana;album=album;playlist=indietronic"
+  },
+  {
+    "text": "Add the artist to my dishwashing playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=dishwashing;playlist_owner=my;entity_name=artist"
+  },
+  {
+    "text": "Add this artist to fairy tales playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=fairy tales;entity_name=artist"
+  },
+  {
+    "text": "add Muzika za decu to my Crash Course playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Crash Course;playlist_owner=my;entity_name=Muzika za decu"
+  },
+  {
+    "text": "Add a derek watkins tune to This Is Johnny Cash",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Derek Watkins;music_item=track;playlist=This Is Johnny Cash"
+  },
+  {
+    "text": "Add our little corner of the world music from gilmore girls to my The Funny Thing About Football Is playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=The Funny Thing About Football Is;playlist_owner=my;entity_name=our little corner of the world music from gilmore girls;music_item=song;artist=gilmore girls"
+  },
+  {
+    "text": "add the current track to my This Is Tchaikovsky playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=This Is Tchaikovsky;playlist_owner=my;entity_name=current track;music_item=track"
+  },
+  {
+    "text": "Put abe laboriel onto the Escapada playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Escapada;entity_name=Abe Laboriel"
+  },
+  {
+    "text": "add abacab to beryl's party on fridays playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist_owner=beryl's;entity_name=abacab;playlist=fridays"
+  },
+  {
+    "text": "Please add this track by Paul McGuigan to the Deep House playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Deep House;entity_name=this track;artist=Paul McGuigan"
+  },
+  {
+    "text": "can you add the current tune to my Calm before the storm playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Calm before the storm;playlist_owner=my;entity_name=current tune;music_item=song"
+  },
+  {
+    "text": "Please add The image of you to my playlist Crate Diggers Anonymous",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Crate Diggers Anonymous;entity_name=The image of you"
+  },
+  {
+    "text": "Add a track to Jazzy Dinner",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=Jazzy Dinner"
+  },
+  {
+    "text": "Add the album to the Hipster Soul playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Hipster Soul;music_item=album"
+  },
+  {
+    "text": "add this tune to my Sleepify playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Sleepify;entity_name=this tune;playlist_owner=my"
+  },
+  {
+    "text": "Add jack white to my playlist This Is Shakira",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=playlist;playlist_owner=my;entity_name=jack white;music_item=song"
+  },
+  {
+    "text": "add tommy johnson to The MetalSucks Playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=The MetalSucks Playlist;entity_name=Tommy Johnson"
+  },
+  {
+    "text": "Add the chris clark tune to my women of the blues playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Women of the Blues;playlist_owner=my;entity_name=Chris Clark tune"
+  },
+  {
+    "text": "Add an artist to Jukebox Boogie Rhythm & Blues",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Jukebox Boogie Rhythm & Blues;entity_name=artist;music_item=artist;artist=To Poetic"
+  },
+  {
+    "text": "add this artist to my Electronic Bliss playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Electronic Bliss;playlist_owner=my;entity_name=artist"
+  },
+  {
+    "text": "I need to add to my Infinite Indie Folk list the works of Rahim Shah",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Infinite Indie Folk;playlist_owner=my;entity_name=works of Rahim Shah;music_item=song;artist=Rahim Shah"
+  },
+  {
+    "text": "Add martin barre to my punk unplugged playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Punk Unplugged;playlist_owner=my;entity_name=martin barre"
+  },
+  {
+    "text": "add tierney sutton to my Novedades Viernes Sudamérica playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Novedades Viernes Sudamérica;playlist_owner=my;entity_name=Tierney Sutton"
+  },
+  {
+    "text": "Add this tune to dorthy's 80's party playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=80's party;playlist_owner=dorthy;entity_name=tune"
+  },
+  {
+    "text": "A Very Cellular Song needs to be added to my masters of metal playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=masters of metal;playlist_owner=my;entity_name=A Very Cellular Song"
+  },
+  {
+    "text": "Add Toyan to my Epic Gaming playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Epic Gaming;playlist_owner=my;entity_name=Toyan"
+  },
+  {
+    "text": "Add the song to the Mac 'N Cheese playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Mac 'N Cheese;entity_name=the song"
+  },
+  {
+    "text": "add this artist to my spotlight on country 2016 playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=spotlight on country 2016;playlist_owner=my;entity_name=artist"
+  },
+  {
+    "text": "Add a song to my playlist madden nfl 16",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=madden nfl 16"
+  },
+  {
+    "text": "Add emilie autumn to my Nação Reggae playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Nação Reggae;playlist_owner=my;entity_name=emilie autumn"
+  },
+  {
+    "text": "add Farhad Darya songs in virales de siempre",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=virales de siempre;artist=Farhad Darya"
+  },
+  {
+    "text": "add a song in my All Out 60s",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=All Out 60s;music_item=song"
+  },
+  {
+    "text": "add we have a theme song to my House Afterwork playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=House Afterwork;playlist_owner=my"
+  },
+  {
+    "text": "add the song to my We Everywhere playlist",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=We Everywhere;playlist_owner=my;entity_name=song"
+  },
+  {
+    "text": "Add Roel van Velzen to my party of the century playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=party of the century;playlist_owner=my;entity_name=Roel van Velzen"
+  },
+  {
+    "text": "Add the artist to the political punks playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=political punks;entity_name=the artist"
+  },
+  {
+    "text": "Add the album to my Club Hits playlist.",
+    "gold_intent": "AddToPlaylist",
+    "pred_intent": "Intent=AddToPlaylist",
+    "pred_slot": "Intent=AddToPlaylist;playlist=Club Hits;playlist_owner=my;music_item=album"
+  },
+  {
+    "text": "Book a reservation for my babies and I",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_description=my babies and I"
+  },
+  {
+    "text": "Book a reservation for a restaurant not far from MA",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=MA;spatial_relation=not far"
+  },
+  {
+    "text": "I would like to book a restaurant in Tanzania that is within walking distance for my mom and I",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_description=my mom and I;poi=;country=Tanzania;spatial_relation=within walking distance;restaurant_type=;facility=;served_dish=;city=;state=;restaurant_name=;cuisine=;sort=;timeRange=;party_size_number=2"
+  },
+  {
+    "text": "Book a reservation for an oyster bar",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=oyster bar"
+  },
+  {
+    "text": "Book a reservation for 6 people for a creole tavern in Montenegro",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=6;restaurant_cuisine=creole;poi=in Montenegro"
+  },
+  {
+    "text": "I need a table in Sacaton at a gluten free restaurant",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_type=restaurant;city=Sacaton;cuisine=gluten free"
+  },
+  {
+    "text": "book sot for me and my grandfather nearby West Reading",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_description=my babies and I, my mom and I, me and my grandfather;poi=West Reading;spatial_relation=nearby"
+  },
+  {
+    "text": "Book me and my nieces a reservation for a seafood restaurant in Cle Elum , NE on ascension day",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_description=my nieces and I;restaurant_type=seafood;city=Cle Elum;state=NE;date=ascension day"
+  },
+  {
+    "text": "book spot for two at City Tavern",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=City Tavern;party_size_number=two"
+  },
+  {
+    "text": "I want to book a brasserie for 3 people in Netherlands Antilles .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=3;restaurant_type=brasserie;poi=Netherlands Antilles"
+  },
+  {
+    "text": "Book me a reservation for the best bistro",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_type=restaurant;restaurant_name=bistro"
+  },
+  {
+    "text": "book the best table in Tanzania for 5 people at a diner",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;restaurant_type=diner;country=Tanzania"
+  },
+  {
+    "text": "I want to book a joint in a spa .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;facility=spa"
+  },
+  {
+    "text": "book a gastropub that serves turkish food for 4 people",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;Cuisine=turkish;Party_size_number=4"
+  },
+  {
+    "text": "book spot for 7 at an indoor restaurant in MP now",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=7;restaurant_type=indoor;city=MP;timeRange=now"
+  },
+  {
+    "text": "book a table in Fiji for zero a.m",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Fiji;timeRange=zero a.m"
+  },
+  {
+    "text": "I want to book a restaurant for five people in Sri Lanka .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;poi=Sri Lanka"
+  },
+  {
+    "text": "I need a table for 5 at a highly rated gastropub in Concord MN",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;restaurant_type=gastropub;city=Concord;state=MN"
+  },
+  {
+    "text": "I want to book Oregon Electric Station in North City .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Oregon Electric Station;city=North City"
+  },
+  {
+    "text": "I need a table for 4 ; please confirm the reservation.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=4"
+  },
+  {
+    "text": "Book a popular restaurant for 5 people",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5"
+  },
+  {
+    "text": "I want to book a joint close by the naomi's hostel for a meal for 8 people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=naomi's hostel;spatial_relation=close by;party_size_number=8"
+  },
+  {
+    "text": "I want to eat a delicatessen in thirteen hours that serves eastern european food",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_type=delicatessen;cuisine=eastern european;timeRange=thirteen hours"
+  },
+  {
+    "text": "Book a reservation for nine people at a bakery in Nunez",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=9;restaurant_type=bakery;city=Nunez"
+  },
+  {
+    "text": "Book a reservation at tavern for noodle",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Tavern;cuisine=Noodle"
+  },
+  {
+    "text": "book spot for 4 in Somalia",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=4;poi=Somalia"
+  },
+  {
+    "text": "I want to book Albany Pump Station in Buckholts Washington now for a party of 9 .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Albany Pump Station;poi=Buckholts;state=Washington;party_size_number=9;timeRange=now"
+  },
+  {
+    "text": "I want to book a taverna in Archer City for this spring for nine people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Archer City Taverna;party_size_number=9;timeRange=this spring"
+  },
+  {
+    "text": "I want to book a top-rated brasserie for 7 people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=7;restaurant_type=brasserie"
+  },
+  {
+    "text": "Book a reservation for 8 people in Wardville , Kansas",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=8;poi=Wardville;state=Kansas"
+  },
+  {
+    "text": "table for Breadline Cafe in Minnesota next friday",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Breadline Cafe;state=Minnesota;timeRange=next friday"
+  },
+  {
+    "text": "I want to book a restaurant in Niger for seven people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=7;country=Niger"
+  },
+  {
+    "text": "Book spot for 9",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=9"
+  },
+  {
+    "text": "Book me a reservation for a pub in Cormorant for a party of nine",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_type=pub;poi=Cormorant;party_size_number=nine"
+  },
+  {
+    "text": "book spot for my nieces and I at a tea house",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_description=my nieces and I;restaurant_type=tea house"
+  },
+  {
+    "text": "I want to book a jewish restaurant in Gambia .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_type=Jewish;country=Gambia"
+  },
+  {
+    "text": "Book a reservation for The Dome, Edinburgh close to Brooklawn",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Brooklawn;restaurant_name=The Dome;city=Edinburgh;spatial_relation=close"
+  },
+  {
+    "text": "book spot for 1 at Town of Ramsgate in Merit",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=1;restaurant_name=Town of Ramsgate;city=Mert"
+  },
+  {
+    "text": "Book a spot for me and kathrine at Smithville",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size=2;restaurant_name=Smithville"
+  },
+  {
+    "text": "I want to book a restaurant for my father in law and I in Buckner a year from now .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_description=my father in law and I;city=Buckner;timeRange=a year from now"
+  },
+  {
+    "text": "Book a restaurant reservation in 6 weeks",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=1;timeRange=6 weeks"
+  },
+  {
+    "text": "Book a reservation for a bar with a spa nearby ID",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;facility=spa;spatial_relation=nearby"
+  },
+  {
+    "text": "book spot for four at Cliff House, San Francisco in Martinique",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=4;restaurant_name=Cliff House;city=San Francisco;country=Martinique"
+  },
+  {
+    "text": "I need a table for 4 in Saint Helena at Settha Palace Hotel",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=4;restaurant_name=Settha Palace Hotel;city=Saint Helena"
+  },
+  {
+    "text": "I want to book a restaurant in Frenier 12 years from now for 4 people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Frenier;party_size_number=4;timeRange=12 years from now"
+  },
+  {
+    "text": "Book seven in neighboring Moorpark",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=seven;object_type=book"
+  },
+  {
+    "text": "I want to eat by five pm in NE for a six people",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=6;state=NE;timeRange=five pm"
+  },
+  {
+    "text": "I want to book Tupelo Honey Cafe in New Jersey for five people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Tupelo Honey Cafe;state=New Jersey;party_size_number=5"
+  },
+  {
+    "text": "Book a reservation for two at Mickies Dairy Bar in Weedsport",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Mickies Dairy Bar;city=Weedsport;party_size_number=2"
+  },
+  {
+    "text": "book a table at a Fried chicken restaurant",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_type=restaurant;restaurant_name=Fried chicken restaurant;cuisine=fried chicken"
+  },
+  {
+    "text": "book spot for mavis, sheila and I in Syria at elevenses",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_description=my babies and I;poi=Syria;timeRange=elevenses"
+  },
+  {
+    "text": "Can you book me a table at Windows on the World in Cokeville , MI ?",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Windows on the World;city=Cokeville;state=MI"
+  },
+  {
+    "text": "Book me a table for 5 this year at Cherwell Boathouse",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;restaurant_name=Cherwell Boathouse"
+  },
+  {
+    "text": "book spot for six at 8 pm at a coffeehouse in NE that serves hog fry",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=6;timeRange=8 pm;poi=coffeehouse;state=NE;served_dish=hog fry"
+  },
+  {
+    "text": "I want to book a restaurant close-by in Inman for five people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;poi=Inman;spatial_relation=close-by"
+  },
+  {
+    "text": "I need a table at Eddie's Attic in Nevada for one",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Eddie's Attic;state=Nevada;party_size_number=one"
+  },
+  {
+    "text": "Book a reservation for an osteria restaurant for 4 people on november 4",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=4;restaurant_type=osteria;date_time=timeRange=November 4"
+  },
+  {
+    "text": "I want to book a top-rated restaurant close by in LA for me, rebecca and loraine on 2/6/2020 .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size=3;restaurant_type=top-rated;poi=LA;spatial_relation=close by;date=2/6/2020"
+  },
+  {
+    "text": "Book a reservation for 1 at a diner in WI",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=1;restaurant_type=diner;state=WI"
+  },
+  {
+    "text": "Book a reservation for 5 people at the top-rated brasserie restaurant",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;restaurant_type=brasserie;sort=top-rated"
+  },
+  {
+    "text": "book a table on 1/20/2023 for 5 people in MH",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;poi=MH"
+  },
+  {
+    "text": "book a table near pat's college",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Pat's College;spatial_relation=near"
+  },
+  {
+    "text": "I want to book a steakhouse in Vimy Ridge .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Vimy Ridge;restaurant_type=steakhouse"
+  },
+  {
+    "text": "I want a table at James D. Conrey House in Urbank California",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=James D. Conrey House;city=Urbank;state=California"
+  },
+  {
+    "text": "Like to book a seat in Monaco for the Yankee Doodle Coffee Shop",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Monaco;restaurant_name=Yankee Doodle Coffee Shop"
+  },
+  {
+    "text": "I want to book a table in a restaurant in Bouvet Island .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Bouvet Island;restaurant_type=restaurant"
+  },
+  {
+    "text": "I would like to book a restaurant for souvlaki cuisine in the state of NE",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;Cuisine=souvlaki;State=NE"
+  },
+  {
+    "text": "Book a reservation for 10 people at an oyster bar with a pool within the same area of Cowansburg for 10 Pm",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=10;restaurant_type=oyster bar;facility=pool;poi=Cowansburg;timeRange=10 Pm"
+  },
+  {
+    "text": "Book a reservation for velma, ana and rebecca for an american pizzeria at 5 Am in MA",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size=3;restaurant_name=American Pizzeria;state=MA;time=5 Am"
+  },
+  {
+    "text": "Book a spot for 4 in Oklahoma at South Street Diner",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=4;restaurant_name=South Street Diner;state=Oklahoma"
+  },
+  {
+    "text": "Book a reservation for my mommy and I at a restaurant in Central African Republic",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_description=my mommy and I;poi=Central African Republic"
+  },
+  {
+    "text": "Book a reservation for five people for a tatar taverna in Sargents",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;restaurant_name=Tatar Taverna;poi=Sargents"
+  },
+  {
+    "text": "phyllis ward and veronica need a table at a restaurant in 152 days",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=2;restaurant_type=;timeRange=152 days"
+  },
+  {
+    "text": "Book a reservation for ten at a restaurant in Ohio",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=10;state=Ohio"
+  },
+  {
+    "text": "I want to book a tea house that serves salade far from here at Midnight in Panama for two people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_type=tea house;cuisine=salade;party_size_number=two;poi=here;timeRange=Midnight;country=Panama"
+  },
+  {
+    "text": "I want to book a food truck for seven people in the Republic of the Congo .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=seven;poi=Republic of the Congo"
+  },
+  {
+    "text": "I want to book a restaurant for ten people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=10"
+  },
+  {
+    "text": "Lets eat near Oakfield 17 seconds from now at Ted Peters Famous Smoked Fish",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Oakfield;restaurant_name=Ted Peters Famous Smoked Fish;spatial_relation=near;timeRange=17 seconds from now"
+  },
+  {
+    "text": "Book sot for 7 at a restaurant that serves european in Stringtown on Feb. the 28th, 2034",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=7;restaurant_type=;cuisine=european;city=Stringtown;date=Feb. the 28th, 2034"
+  },
+  {
+    "text": "book a restaurant for six at an outdoor cafe in Åland",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=6;poi=Åland;restaurant_type=outdoor cafe"
+  },
+  {
+    "text": "Book a table for 12 am . at our step mother's secondary residence within walking distance for one",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=our step mother's secondary residence;party_size_number=one;spatial_relation=within walking distance"
+  },
+  {
+    "text": "Please book me a table at a pizzeria with a parking facility in Ghana .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;facility=parking;country=Ghana"
+  },
+  {
+    "text": "book spot for four at a indoor pub within the same area of Louisiana in one minute",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=4;restaurant_type=pub;facility=indoor;state=Louisiana;timeRange=one minute"
+  },
+  {
+    "text": "Please book me a restaurant",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=1"
+  },
+  {
+    "text": "Book a reservation for me and my step brother at AMT Coffee in Lakemoor",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size=2;restaurant_name=AMT Coffee;poi=Lakemoor"
+  },
+  {
+    "text": "I want to book a churrascaria in Romeoville at ten a.m for four people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=churrascaria;poi=Romeoville;timeRange=ten a.m;party_size_number=4"
+  },
+  {
+    "text": "table for 5 A.m . at Baker's Keyboard Lounge",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;restaurant_name=Baker's Keyboard Lounge;timeRange=5 A.m."
+  },
+  {
+    "text": "Please book me a table at a bistro which serves lorna doone .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=;served_dish=Lorna Doone;restaurant_type=bistro"
+  },
+  {
+    "text": "I want to book a restaurant for six people in Wagstaff AK .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=6;poi=Wagstaff;state=AK"
+  },
+  {
+    "text": "I would like to book a highly rated restaurant for a party of ten .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=10"
+  },
+  {
+    "text": "I want to book a sundanese gastropub nearby in Texas for 3 people on 5/20/2025 .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=3;restaurant_cuisine=sundanese;spatial_relation=nearby;state=Texas;date=timeRange=5/20/2025"
+  },
+  {
+    "text": "book a party of five at Seagoville for 06:42",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;restaurant_name=Seagoville;timeRange=06:42"
+  },
+  {
+    "text": "Book spot for 9 at Thurmont",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=9;poi=Thurmont"
+  },
+  {
+    "text": "I want to book a restaurant in sixteen seconds for 5 people in Gold Point Montana .",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=5;poi=Gold Point;state=Montana"
+  },
+  {
+    "text": "I want to eat in Ramona",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_name=Ramona"
+  },
+  {
+    "text": "book a party at their campus within the same area for churrascaria",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=their campus;spatial_relation=within the same area;cuisine=churrascaria"
+  },
+  {
+    "text": "Book me a reservation for a party of 3 at a pub in Northern Mariana Islands",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=3;restaurant_type=pub;poi=Northern Mariana Islands"
+  },
+  {
+    "text": "I want to book a bougatsa restaurant in next year nearby Penn for three people.",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;restaurant_type=bougatsa;poi=Penn;timeRange=next year;party_size_number=three"
+  },
+  {
+    "text": "Book a reservation for nine people at the best pub nearby Tangier in six months",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;party_size_number=9;restaurant_type=pub;spatial_relation=nearby;city=Tangier;timeRange=six months"
+  },
+  {
+    "text": "need a table somewhere in Quarryville 14 hours from now",
+    "gold_intent": "BookRestaurant",
+    "pred_intent": "Intent=BookRestaurant",
+    "pred_slot": "Intent=BookRestaurant;poi=Quarryville;timeRange=14 hours from now"
+  },
+  {
+    "text": "What will the weather be faraway from here ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;spatial_relation=faraway"
+  },
+  {
+    "text": "Will there be fog in Tahquamenon Falls State Park ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Tahquamenon Falls State Park"
+  },
+  {
+    "text": "Tell me the weather forecast for Gibsland",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=Gibsland"
+  },
+  {
+    "text": "Is there a storm now in NC ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=NC;timeRange=now"
+  },
+  {
+    "text": "What will the weather be in Monument of Lihula on december the 5th ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Monument of Lihula;timeRange=december the 5th"
+  },
+  {
+    "text": "Weather next year in Dominica",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=next year;country=Dominica"
+  },
+  {
+    "text": "When will it be hot here",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;condition_temperature=hot"
+  },
+  {
+    "text": "What will the weather be in 1 day in Kuwait ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;country=Kuwait;timeRange=1 day"
+  },
+  {
+    "text": "What kind of weather will be in Ukraine one minute from now ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;country=Ukraine;timeRange=one minute from now"
+  },
+  {
+    "text": "humidity in Olvey New Hampshire",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Olvey;state=New Hampshire;condition_description=humidity"
+  },
+  {
+    "text": "What's the weather going to be in UT ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=UT"
+  },
+  {
+    "text": "humidity not far from Colorado City on November the 7th, 2024",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;spatial_relation=not far from;city=Colorado City;timeRange=November the 7th, 2024;condition_description=humidity"
+  },
+  {
+    "text": "What is the forecast for Wyoming at Stanardsville during the storm",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Stanardsville;state=Wyoming;condition_description=storm"
+  },
+  {
+    "text": "What will the weather be in North Carolina ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=North Carolina"
+  },
+  {
+    "text": "what is the forecast starting 11 weeks from now nearby the state of Wisconsin",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;spatial_relation=nearby;state=Wisconsin;timeRange=11 weeks from now"
+  },
+  {
+    "text": "Will it be rainy at Sunrise in Ramey Saudi Arabia ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Sunrise;city=Ramey;country=Saudi Arabia"
+  },
+  {
+    "text": "Check the forecast for Nebraska .",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=Nebraska"
+  },
+  {
+    "text": "Will it be warmer in North Korea at nineteen o'clock",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;country=North Korea;condition_temperature=warmer;timeRange=nineteen o'clock"
+  },
+  {
+    "text": "Let me know the weather forecast around ten Pm faraway from here in Park Narodowy Brimstone Hill Fortress .",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Park Narodowy Brimstone Hill Fortress;spatial_relation=faraway;current_location=here;timeRange=around ten Pm"
+  },
+  {
+    "text": "Will it be stormy in the Ouachita National Forest ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Ouachita National Forest"
+  },
+  {
+    "text": "Tell me if it will be snowy 8 hours from now in Mount Airy , VI",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Mount Airy;country=VI;timeRange=8 hours from now"
+  },
+  {
+    "text": "What will the weather be nineteen hours from now neighboring Saint Kitts and Nevis ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=nineteen hours from now;spatial_relation=neighboring;country=Saint Kitts and Nevis"
+  },
+  {
+    "text": "Will there be hail on 11/12/2036 in Singapore",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=11/12/2036;geographic_poi=Singapore"
+  },
+  {
+    "text": "Will it be colder here in 48 and a half weeks",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;timeRange=48 and a half weeks;condition_temperature=colder"
+  },
+  {
+    "text": "What's the weather going to be in Knobel ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Knobel"
+  },
+  {
+    "text": "What will the weather be in Dane on sep. the fifth, 2030 ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=Dane;timeRange=sep. the fifth, 2030"
+  },
+  {
+    "text": "What will the weather be in Ohio ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=Ohio"
+  },
+  {
+    "text": "I need to know the weather for Jan. the 3rd in Mexico when I go to Port Vue",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=Jan. the 3rd;country=Mexico;city=Port Vue"
+  },
+  {
+    "text": "what is the forecast for Ōtone Prefectural Natural Park in 1 hour and within the same area",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Ōtone Prefectural Natural Park;timeRange=1 hour;spatial_relation=within the same area"
+  },
+  {
+    "text": "What kind of weather is forecast around one pm near Vatican ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Vatican;spatial_relation=near;timeRange=one pm"
+  },
+  {
+    "text": "Will it be chilly in Weldona ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Weldona"
+  },
+  {
+    "text": "Will it be colder in Virgin Islands National Park ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Virgin Islands National Park;condition_temperature=colder"
+  },
+  {
+    "text": "Will it be hot at 13:19 in De Funiak Springs Serbia and Montenegro ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=13:19;city=De Funiak Springs;country=Serbia and Montenegro"
+  },
+  {
+    "text": "What is the weather going to be like in Virginia on st. patrick's day ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;country=;state=Virginia;timeRange=st. patrick's day"
+  },
+  {
+    "text": "Weather in Kaneville Maryland",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=Kaneville;state=Maryland"
+  },
+  {
+    "text": "When is sunrise for AR",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=AR"
+  },
+  {
+    "text": "What will the weather be not far from here on October the nineteenth, 2026 ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;timeRange=October the nineteenth, 2026"
+  },
+  {
+    "text": "what is the forecast for Waurika in Samoa",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Waurika;country=Samoa"
+  },
+  {
+    "text": "Tell me the weather forecast here",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;Slot=current_location=here"
+  },
+  {
+    "text": "What is the weather forecast nearby Nicodemus",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;spatial_relation=nearby;geographic_poi=Nicodemus"
+  },
+  {
+    "text": "What will the weather be in nov. in Brookneal ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=Brookneal;timeRange=Nov"
+  },
+  {
+    "text": "Will it be colder four months from now in Suwanee AK",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;condition_temperature=colder;timeRange=four months from now;state=AK;city=Suwanee"
+  },
+  {
+    "text": "What is the weather forecast for Burundi",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;country=Burundi"
+  },
+  {
+    "text": "What's the weather in Benton City ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=Benton City"
+  },
+  {
+    "text": "What will the weather be in KY on Oct. 16, 2036 ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=KY;timeRange=Oct. 16, 2036"
+  },
+  {
+    "text": "Will the sun be out in 1 minute in Searcy , Uganda",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Searcy;country=Uganda;timeRange=1 minute"
+  },
+  {
+    "text": "what is the weather here",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;Slot=current_location=here"
+  },
+  {
+    "text": "What will the weather be one second from now in Chad ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=one second from now;country=Chad"
+  },
+  {
+    "text": "What kind of weather is forecast in MS now ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=MS;timeRange=now"
+  },
+  {
+    "text": "what is the forecast for LA for freezing",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=LA;condition_temperature=frosting"
+  },
+  {
+    "text": "how cold will it be here in 1 second",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;timeRange=1 second"
+  },
+  {
+    "text": "what is the forecast for hotter weather at Southford Falls State Park",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Southford Falls State Park;condition_temperature=hotter"
+  },
+  {
+    "text": "what is the overcast forecast for the current position starting on jul. 19, 2030",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=current position;timeRange=Jul. 19, 2030"
+  },
+  {
+    "text": "what is the forecast for Morocco at Lake Ozark on December seventeenth, 2022",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;country=Morocco;state=;city=;timeRange=December seventeenth, 2022;geographic_poi=Lake Ozark"
+  },
+  {
+    "text": "What will the humidity be in the current spot at 15:19:29 ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=current spot;timeRange=15:19:29"
+  },
+  {
+    "text": "what is the forecast in Nicodemus and nearby",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Nicodemus;spatial_relation=nearby"
+  },
+  {
+    "text": "What is the weather going to be like in Benton Colorado in 2 and a half months",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Benton;state=Colorado;timeRange=2 and a half months"
+  },
+  {
+    "text": "What's the weather forecast for Bothe-Napa Valley State Park close by february 20 ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Bothe-Napa Valley State Park;spatial_relation=close by;timeRange=February 20"
+  },
+  {
+    "text": "what is the forecast for beginning on nov. 17 for Franklinville",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=Nov. 17;city=Franklinville"
+  },
+  {
+    "text": "what's the forecast for sep. 26 in Emerado Saint Pierre and Miquelon",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=Sep. 26;city=Emerado;state=Saint Pierre and Miquelon;country=Miquelon"
+  },
+  {
+    "text": "Will there be a blizzard next winter in Visalia , Idaho",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Visalia;state=Idaho;condition_description=blizzard;timeRange=next winter"
+  },
+  {
+    "text": "Will it be warmer in the District Of Columbia on may 25, 2033 ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=District Of Columbia;timeRange=may 25, 2033;condition_temperature=warmer"
+  },
+  {
+    "text": "What will the weather be here on dec. 7th ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;timeRange=dec. 7th"
+  },
+  {
+    "text": "what is the forecast for colder temps beginning on Law Day here",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;condition_temperature=colder;timeRange=Law Day;current_location=here"
+  },
+  {
+    "text": "What's the weather like in Tyonek , New Jersey",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Tyonek;state=New Jersey"
+  },
+  {
+    "text": "what is the forecast for here for blizzard conditions at five pm",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;condition_description=blizzard;timeRange=five pm"
+  },
+  {
+    "text": "Will there be a storm in Gibsonia at 8 p.m ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=Gibsonia;timeRange=8 p.m"
+  },
+  {
+    "text": "what is the cold condition of our current position for tomorrow",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=current position;condition_temperature=cold;timeRange=tomorrow"
+  },
+  {
+    "text": "What will the weather be in Hialeah Gardens on October the 24th ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=Hialeah Gardens;timeRange=October the 24th"
+  },
+  {
+    "text": "Will it be freezing today in Delaware and Lehigh National Heritage Corridor ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Delaware and Lehigh National Heritage Corridor;condition_temperature=frosting"
+  },
+  {
+    "text": "what is the forecast in Admire in TX starting at seventeen",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Admire;state=TX;timeRange=seventeen"
+  },
+  {
+    "text": "what is the forecast in North Carolina for Edgemoor",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=North Carolina;city=Edgemoor"
+  },
+  {
+    "text": "what is the forecast for Costa Rica",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;country=Costa Rica"
+  },
+  {
+    "text": "Need weather for Parc national Tolhuaca to see if it will be fog today",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Parc national Tolhuaca;condition_description=fog"
+  },
+  {
+    "text": "Weather in Walden Russia on 12/26/2018",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=Walden;country=Russia;timeRange=12/26/2018"
+  },
+  {
+    "text": "What's the humidity here right now ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;timeRange=now"
+  },
+  {
+    "text": "How's the weather at Petit Manan National Wildlife Refuge and nearby right now",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Petit Manan National Wildlife Refuge;spatial_relation=nearby;timeRange=now"
+  },
+  {
+    "text": "what is the forecast for Lansford for temperate weather",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Lansford;condition_temperature=temperate"
+  },
+  {
+    "text": "overcast on State Holiday in Pawling Nature Reserve and neighboring places",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Pawling Nature Reserve;spatial_relation=neighboring places;state=State Holiday"
+  },
+  {
+    "text": "I need the weather in Wakarusa",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Wakarusa"
+  },
+  {
+    "text": "Tell me the forecast for 6 am in Tatra-Nationalpark",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Tatra-Nationalpark;timeRange=6 am"
+  },
+  {
+    "text": "Tell me the weather forecast for UT on thursday",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;state=UT;timeRange=thursday"
+  },
+  {
+    "text": "what is the forecast for Turtle Islands National Park",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Turtle Islands National Park"
+  },
+  {
+    "text": "Will it be hotter in PR at 23 o'clock ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;Slot1=condition_temperature=hotter;Slot2=geographic_poi=PR;Slot3=timeRange=23 o'clock"
+  },
+  {
+    "text": "Weather in two hours in Uzbekistan",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=two hours;country=Uzbekistan"
+  },
+  {
+    "text": "What is the forecast for this afternoon for blizzard conditions in Dieterich Chad",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;condition_description=blizzard;country=Chad;timeRange=this afternoon;city=Dieterich"
+  },
+  {
+    "text": "how's the weather here at two Am",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;current_location=here;timeRange=two Am"
+  },
+  {
+    "text": "will Custer National Forest be chillier at seven Pm",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Custer National Forest;timeRange=seven Pm;condition_temperature=colder"
+  },
+  {
+    "text": "what is the forecast for starting at three a.m in Two Buttes for warm weather",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=three a.m;city=Two Buttes;condition_temperature=warm"
+  },
+  {
+    "text": "What's the weather in Fox Chapel ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Fox Chapel;current_location="
+  },
+  {
+    "text": "What is the rain forecast for one hour from now in South Korea",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=one hour from now;country=South Korea"
+  },
+  {
+    "text": "Tell me the weather forecast here",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;Slot=current_location=here"
+  },
+  {
+    "text": "Will there be a cloud in VI in 14 minutes ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;Slot1=condition_description=cloud;Slot2=timeRange=14 minutes;Slot3=geographic_poi=VI"
+  },
+  {
+    "text": "How much colder will it be not far from Utah around 3 Am ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;spatial_relation=not far;state=Utah;timeRange=3 Am;condition_temperature=colder"
+  },
+  {
+    "text": "Will it be chilly midday in Cresbard Afghanistan ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Cresbard;country=Afghanistan;timeRange=midday;condition_temperature=chilly"
+  },
+  {
+    "text": "What will the weather be in Sarygamyş Sanctuary on august 21, 2035 ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Sarygamyş Sanctuary;timeRange=august 21, 2035"
+  },
+  {
+    "text": "Will it be rainy in Tenino ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Tenino"
+  },
+  {
+    "text": "Will it be hot in the Netherlands on February 16th ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;country=Netherlands;timeRange=February 16th;condition_temperature=hot"
+  },
+  {
+    "text": "Where is Belgium located",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Belgium"
+  },
+  {
+    "text": "What will the weather be in Milleville Beach ?",
+    "gold_intent": "GetWeather",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;geographic_poi=Milleville Beach"
+  },
+  {
+    "text": "can you put on Like A Hurricane by Paul Landers",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Paul Landers;album=Like A Hurricane"
+  },
+  {
+    "text": "Play The Happy Blues by Ronnie Wood .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Ronnie Wood;album=The Happy Blues"
+  },
+  {
+    "text": "Play the newest melody on Last Fm by Eddie Vinson .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Last Fm;artist=Eddie Vinson;music_item=track"
+  },
+  {
+    "text": "Use Groove Shark to play music",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Groove Shark"
+  },
+  {
+    "text": "Please play something good from U-roy .  Any song from 1975 on Zvooq will do.",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=U-roy;year=1975;service=Zvooq"
+  },
+  {
+    "text": "Play a symphony from 2013 .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=symphony;year=2013"
+  },
+  {
+    "text": "Let me hear the good songs from James Iha",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=James Iha;music_item=song;sort=good"
+  },
+  {
+    "text": "Play my inventive playlist",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=inventive"
+  },
+  {
+    "text": "I want to play music from iheart",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=iheart"
+  },
+  {
+    "text": "Play Subconscious Lobotomy from Jennifer Paull .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Jennifer Paull;album=Subconscious Lobotomy"
+  },
+  {
+    "text": "I want to hear a seventies sound track .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;Slot1=year;Slot2=track;Slot3=sound track"
+  },
+  {
+    "text": "play a john maher track",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=John Maher;track=track"
+  },
+  {
+    "text": "Please play something from Dihan Slabbert that's on the top fifty",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Dihan Slabbert;sort=top fifty"
+  },
+  {
+    "text": "Please play something catchy on Youtube",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Youtube;music_item=track"
+  },
+  {
+    "text": "Play something from 2004 by Imogen Heap on spotify",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Imogen Heap;year=2004;service=Spotify"
+  },
+  {
+    "text": "Play seventies music please.",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=seventies"
+  },
+  {
+    "text": "Play music from the artist sean yseult and sort it through top-50",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;Slot1=artist=sean yseult;Slot2=sort=top-50"
+  },
+  {
+    "text": "Play anything Jd Natasha did in the thirties",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Jd Natasha;object_type=album"
+  },
+  {
+    "text": "Play music off Netflix .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Netflix"
+  },
+  {
+    "text": "nineties songs on Zvooq",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Zvooq;year=nineties"
+  },
+  {
+    "text": "Open itunes and play Ben Burnley Ready To Die",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Ben Burnley;track=Ready To Die"
+  },
+  {
+    "text": "Play an ep by Zak Starkey .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Zak Starkey;music_item=ep"
+  },
+  {
+    "text": "Play an album from Nithyasree Mahadevan .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Nithyasree Mahadevan;music_item=album"
+  },
+  {
+    "text": "I want to listen to something on Youtube",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;Service=Youtube"
+  },
+  {
+    "text": "Start playing something from Iheart",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Iheart"
+  },
+  {
+    "text": "Play Trance Life on Zvooq .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;service=Zvooq;artist=Trance Life"
+  },
+  {
+    "text": "Find and play a concerto on Zvooq from 1978 by Ginger Pooley",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Zvooq;music_item=track;artist=Ginger Pooley;year=1978"
+  },
+  {
+    "text": "Play All Things Must Pass .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;track=All Things Must Pass"
+  },
+  {
+    "text": "I want to hear music from Allen Toussaint from the fifties",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Allen Toussaint;year=fifties"
+  },
+  {
+    "text": "Turn on Last Fm",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;Service=Last Fm"
+  },
+  {
+    "text": "Play a song by Rahsaan Patterson .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Rahsaan Patterson"
+  },
+  {
+    "text": "play Femme Fatale by Bonobo",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;track=Femme Fatale;artist=Bonobo"
+  },
+  {
+    "text": "Play some anneliese van der pol from the thirties on Groove Shark",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Anneliese Van Der Pol;year=thirties;service=Groove Shark"
+  },
+  {
+    "text": "I want to listen to an ep from 1998 .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=EP;year=1998"
+  },
+  {
+    "text": "Play Paul Mccartney",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Paul McCartney"
+  },
+  {
+    "text": "play Jill Sobule album",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=album;artist=Jill Sobule"
+  },
+  {
+    "text": "Play chant 's from 1973 .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=chant;year=1973"
+  },
+  {
+    "text": "Play something from 90s Pop Rock Essentials",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=Pop Rock;music_item=album;year=nineties"
+  },
+  {
+    "text": "Play Have You Met Miss Jones by Nicole from Google Music .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;track=Have You Met Miss Jones;service=Google Music;artist=Nicole"
+  },
+  {
+    "text": "play chant by Nigger Kojak on Itunes",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Nigger Kojak;service=Itunes"
+  },
+  {
+    "text": "Play some sixties songs on Google Music",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=sixties;service=Google Music"
+  },
+  {
+    "text": "Play a fifties album from Dj Yoda on Last Fm .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=album;service=Last Fm;artist=Dj Yoda;year=fifties"
+  },
+  {
+    "text": "Please play my ecstatic playlist.",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=ecstatic"
+  },
+  {
+    "text": "Open deezer and play Curtain Call: The Hits by Junichi Okada .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Junichi Okada;album=Curtain Call: The Hits"
+  },
+  {
+    "text": "Let's play Jamie Robertson 's Handover on vimeo",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Jamie Robertson's Handover"
+  },
+  {
+    "text": "play a sixties soundtrack",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;Slot1=genre;Slot2=year;Slot3=sixties soundtrack"
+  },
+  {
+    "text": "Play This Is: Miles Davis on Lastfm .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Miles Davis;service=Lastfm"
+  },
+  {
+    "text": "Live In L.a Joseph Meyer please",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Live In L.a;object_type=album"
+  },
+  {
+    "text": "Play the top twenty Hisham Abbas on Youtube",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Hisham Abbas;service=Youtube;music_item=track;sort=top twenty"
+  },
+  {
+    "text": "play some seventies Filipp Kirkorow",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Filipp Kirkorow;year=seventies"
+  },
+  {
+    "text": "Play the most popular Puretone",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Puretone"
+  },
+  {
+    "text": "Play music from E-type .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=E-type"
+  },
+  {
+    "text": "Can you play A.j. Pero on Groove Shark ?",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=A.j. Pero;service=Groove Shark"
+  },
+  {
+    "text": "Play a Bob Burns song",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Bob Burns;music_item=song"
+  },
+  {
+    "text": "I want to hear Leroi Moore on vimeo , play the song Chance Of A Lifetime .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Leroi Moore;track=Chance Of A Lifetime;service=vimeo"
+  },
+  {
+    "text": "Play some symphony music from David Lindley .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=David Lindley;music_item=song;genre=symphony"
+  },
+  {
+    "text": "Please play something on Iheart from artist Ari Gold last album",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Iheart;artist=Ari Gold;music_item=album;album=last album"
+  },
+  {
+    "text": "I want to hear them from the artist Murcof",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Murcof"
+  },
+  {
+    "text": "Play sound track music from the twenties",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=sound track;year=twenties"
+  },
+  {
+    "text": "Play Dance With The Devil by Mr. Lordi",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Mr. Lordi"
+  },
+  {
+    "text": "Play music from 1996 .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;year=1996"
+  },
+  {
+    "text": "Go to Itunes and play Dr. Lecter by David Hodges",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Itunes;artist=David Hodges;music_item=track;track=Dr. Lecter"
+  },
+  {
+    "text": "Play S.t.r.e.e.t. D.a.d . from Hiromitsu Agatsuma through Pandora .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Hiromitsu Agatsuma;music_item=track;service=Pandora"
+  },
+  {
+    "text": "Play some movement from the fourties",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=movement;year=fourties"
+  },
+  {
+    "text": "Please tune into Chieko Ochi 's good music",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Chieko Ochi;music_item=song;genre=good"
+  },
+  {
+    "text": "Play the greatest music from Bryan Maclean .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Bryan Maclean"
+  },
+  {
+    "text": "Play something on Last Fm",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Last Fm"
+  },
+  {
+    "text": "Play music by Joy Nilo .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Joy Nilo"
+  },
+  {
+    "text": "play some Gary Lee Conner",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Gary Lee Conner"
+  },
+  {
+    "text": "Play music by Brian Chase .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Brian Chase"
+  },
+  {
+    "text": "Can you play top Zvooq by Fink ?",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Fink;service=Zvooq"
+  },
+  {
+    "text": "play the top-20 Nawang Khechog soundtrack",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Nawang Khechog;album=soundtrack"
+  },
+  {
+    "text": "Let's hear stuff from Andrew Hewitt .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Andrew Hewitt"
+  },
+  {
+    "text": "Play a good ep from the eighties by Peter Murphy .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Peter Murphy;year=eighties;music_item=ep"
+  },
+  {
+    "text": "Play Another Passenger from Louis Nelson Delisle .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Louis Nelson Delisle;track=Another Passenger"
+  },
+  {
+    "text": "Play the top music from The Railway Children off Last Fm .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=The Railway Children;service=Last Fm"
+  },
+  {
+    "text": "play the best Becca",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Becca"
+  },
+  {
+    "text": "Play something by Duke Ellington from the seventies",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Duke Ellington;year=seventies"
+  },
+  {
+    "text": "Use the last fm service to play A Mis Niños de 30",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Last Fm;music_item=track;artist=A Mis Niños;track=A Mis Niños de 30"
+  },
+  {
+    "text": "Play my Black Sabbath: The Dio Years playlist.",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;playlist=Black Sabbath: The Dio Years"
+  },
+  {
+    "text": "Play an ep from Mike Harding .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Mike Harding;music_item=ep"
+  },
+  {
+    "text": "I want to hear anything from the Rock Symphonique genre please.",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=Rock Symphonique"
+  },
+  {
+    "text": "Please play a 1997 record .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=record;year=1997"
+  },
+  {
+    "text": "Put What Color Is Your Sky by Alana Davis on the stereo.",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Alana Davis;track=What Color Is Your Sky"
+  },
+  {
+    "text": "Please play a movement from george formby jr .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=George Formby Jr.;music_item=track"
+  },
+  {
+    "text": "play some new Les Vandyke on Slacker",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Les Vandyke;service=Slacker"
+  },
+  {
+    "text": "Please open Zvooq",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;Service=Zvooq"
+  },
+  {
+    "text": "Play Progressive Metal .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=Progressive Metal"
+  },
+  {
+    "text": "I want to hear soundtrack music on Youtube from Helena Iren Michaelsen",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Helena Iren Michaelsen;object_type=album"
+  },
+  {
+    "text": "play a song by Ramesh Narayan from 1960",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Ramesh Narayan;year=1960"
+  },
+  {
+    "text": "Play some blues britânico .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=blues britânico"
+  },
+  {
+    "text": "Proceed with Hitomi Nabatame music from 2003 .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Hitomi Nabatame;year=2003"
+  },
+  {
+    "text": "Play something on Zvooq",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;service=Zvooq"
+  },
+  {
+    "text": "Play music from Lynn & Wade Llp .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Lynn & Wade Llp"
+  },
+  {
+    "text": "Let me hear Chris Knight music",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=Chris Knight;music_item=song"
+  },
+  {
+    "text": "Let's hear good Mohammad Mamle on Vimeo .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Mohammad Mamle"
+  },
+  {
+    "text": "Please play a sound track from the fifties that's on Iheart",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=None;service=Iheart;year=fifties"
+  },
+  {
+    "text": "Play Music From Van-pires by Dmitry Malikov .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;artist=Dmitry Malikov;album=Van-pires"
+  },
+  {
+    "text": "Play rich sex on Iheart",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=rich sex;service=Iheart"
+  },
+  {
+    "text": "Play Modern Psychedelia .",
+    "gold_intent": "PlayMusic",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;genre=Modern Psychedelia"
+  },
+  {
+    "text": "rate this album four out of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=album;object_select=this;rating_value=four;best_rating=6;rating_unit=stars"
+  },
+  {
+    "text": "Give this textbook four stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=textbook;rating_value=four;rating_unit=stars"
+  },
+  {
+    "text": "rate A Twist in the Tale zero out of 6 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=A Twist in the Tale;best_rating=6;rating_unit=points"
+  },
+  {
+    "text": "Rate The children of Niobe 1 out of 6 points .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The children of Niobe;best_rating=6;rating_unit=points"
+  },
+  {
+    "text": "Give zero stars to Halo: Ghosts of Onyx",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Halo: Ghosts of Onyx;rating_value=zero;rating_unit=stars"
+  },
+  {
+    "text": "give this novel a score of 5",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=novel;rating_unit=points;rating_value=5"
+  },
+  {
+    "text": "Give the current series four of 6 points .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;Slot1=current_location=none;Slot2=condition_description=none"
+  },
+  {
+    "text": "Give 4 out of 6 points to The Spirit Ring chronicle",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Spirit Ring;object_part_of_series_type=chronicle;best_rating=6;rating_unit=points"
+  },
+  {
+    "text": "Give two stars out of 6 to 36 Children",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;best_rating=6;rating_value=2;rating_unit=stars;object_name=36 Children;object_type=book"
+  },
+  {
+    "text": "Rate The Sneetches and Other Stories a three",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Sneetches and Other Stories;rating_value=three;rating_unit=stars"
+  },
+  {
+    "text": "Rate the current series four stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=series;rating_value=four;rating_unit=stars"
+  },
+  {
+    "text": "rate this book a 4 out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=book;best_rating=6;rating_unit=out;rating_value=4"
+  },
+  {
+    "text": "rate the current novel 5 of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=novel;best_rating=6;rating_unit=stars;rating_value=5"
+  },
+  {
+    "text": "Rate this book a 1",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=book;rating_value=1;rating_unit=points"
+  },
+  {
+    "text": "Give zero out of 6 to the current album",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=album;object_select=current;best_rating=6;rating_unit=stars;rating_value=0"
+  },
+  {
+    "text": "Give this album 5 points .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=album;rating_value=5;rating_unit=points"
+  },
+  {
+    "text": "Rate The Mystery of the Tolling Bell series 4 stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Mystery of the Tolling Bell;object_part_of_series_type=series;object_type=book;rating_unit=stars;rating_value=4;rating=4"
+  },
+  {
+    "text": "Give the current novel two stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=novel;rating_value=two;rating_unit=stars"
+  },
+  {
+    "text": "Give the current book 4 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=book;rating_value=4;rating_unit=stars"
+  },
+  {
+    "text": "Give Joe Magarac and His USA Citizen Papers 5 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Joe Magarac and His USA Citizen Papers;rating_value=5;rating_unit=points"
+  },
+  {
+    "text": "Rate The Guilty 0 of 6 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Guilty;best_rating=6;rating_unit=points"
+  },
+  {
+    "text": "rate this textbook four out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=textbook;best_rating=6;rating_value=four;rating_unit=out of"
+  },
+  {
+    "text": "Give the Catedral series four stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Catedral series;object_type=series;rating_value=four;rating_unit=stars"
+  },
+  {
+    "text": "Reminiscences of the Anti-Japanese Guerillas chronicle deserves zero points out of 6 for a rating.",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Reminiscences of the Anti-Japanese Guerillas chronicle;object_part_of_series_type=chronicle;rating_value=zero;best_rating=6;rating_unit=points"
+  },
+  {
+    "text": "Give Small Screen, Big Picture a 0 out of 6 rating.",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Small Screen, Big Picture;best_rating=6;rating_value=0;rating_unit=stars"
+  },
+  {
+    "text": "Gods and Pawns should get a three",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Gods and Pawns;rating_value=three;rating_unit=stars"
+  },
+  {
+    "text": "Give zero stars to this textbook",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=textbook;object_type=book;object_select=this;rating_value=zero;rating_unit=stars"
+  },
+  {
+    "text": "Rate the current novel a 4 out of 6 stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=novel;rating_value=4;rating_unit=stars;best_rating=6"
+  },
+  {
+    "text": "Rate the book The Atmospheric Railway 5 out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Atmospheric Railway;best_rating=6;rating_unit=out of 6;object_type=book"
+  },
+  {
+    "text": "rate Black Boy 4 out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Black Boy;best_rating=6;rating_value=4;rating_unit=out of"
+  },
+  {
+    "text": "Rate the chronicle current 1 star",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=book;object_part_of_series_type=chronicle;object_select=current;rating_value=1;rating_unit=star"
+  },
+  {
+    "text": "mark this album a score of 5",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=album;rating_value=5;rating_unit=score"
+  },
+  {
+    "text": "rate the current novel zero out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=novel;rating_value=zero;rating_unit=out of 6;best_rating=6"
+  },
+  {
+    "text": "rate the current novel a 2",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=novel;rating_value=2;rating_unit=points"
+  },
+  {
+    "text": "Give The Giant Devil Dingo 4 points .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Giant Devil Dingo;rating_value=4;rating_unit=points"
+  },
+  {
+    "text": "Rate this current novel two out of 6 .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=novel;best_rating=6;rating_unit=out of 6;rating_value=two"
+  },
+  {
+    "text": "Give Monthly Index of Medical Specialities a two out of 6 rating.",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Monthly Index of Medical Specialities;best_rating=6;rating_value=2;rating_unit=stars"
+  },
+  {
+    "text": "rate this novel 2 out of 6 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=novel;best_rating=6;rating_unit=points;rating_value=2"
+  },
+  {
+    "text": "Rate the current novel 3 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=novel;rating_value=3;rating_unit=stars"
+  },
+  {
+    "text": "rate the current essay zero out of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=essay;best_rating=6;rating_unit=stars;rating_value=zero"
+  },
+  {
+    "text": "rate this current album 0 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=album;rating_value=0;rating_unit=stars"
+  },
+  {
+    "text": "Give A Brief Stop on the Road from Auschwitz 1 out of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=A Brief Stop on the Road from Auschwitz;best_rating=6;rating_unit=stars"
+  },
+  {
+    "text": "Rate this album 4 out of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=album;object_select=this;best_rating=6;rating_unit=stars;rating_value=4"
+  },
+  {
+    "text": "Rate Hate That Cat 1 out of 6 stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Hate That Cat;best_rating=6;rating_unit=stars;rating_value=1"
+  },
+  {
+    "text": "give my current book one of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=book;best_rating=6;rating_unit=stars"
+  },
+  {
+    "text": "Rate current novel one stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=novel;rating_value=one;rating_unit=stars"
+  },
+  {
+    "text": "Give five out of 6 points to this album",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=album;best_rating=6;rating_unit=points"
+  },
+  {
+    "text": "Give a rating of 2 to Juneteenth .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Juneteenth;best_rating=2;rating_unit=points"
+  },
+  {
+    "text": "Rate Ruth five out of 6 points .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Ruth;best_rating=6;rating_unit=points;rating_value=5"
+  },
+  {
+    "text": "rate The Sea of Trolls 1 stars out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Sea of Trolls;best_rating=6;rating_unit=stars;rating_value=1"
+  },
+  {
+    "text": "give The Zenith Angle one out of 6 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Zenith Angle;best_rating=6;rating_unit=points"
+  },
+  {
+    "text": "Give zero stars to Rhialto the Marvellous",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Rhialto the Marvellous;rating_value=zero;rating_unit=stars"
+  },
+  {
+    "text": "give the current book a zero of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=book;rating_unit=stars;rating_value=0;best_rating=6"
+  },
+  {
+    "text": "rate Personal Demons 0 out of 6 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Personal Demons;best_rating=6;rating_unit=points;rating_value=0"
+  },
+  {
+    "text": "Rate the current series a 4",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=series;rating_unit=;rating_value=4"
+  },
+  {
+    "text": "Give one of 6 points to Who Will Cry When You Die",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Who Will Cry When You Die;best_rating=6;rating_unit=points"
+  },
+  {
+    "text": "Give zero out of 6 stars to this album",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=album;object_select=this;best_rating=6;rating_unit=stars;rating_value=zero"
+  },
+  {
+    "text": "Give this novel 2 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=novel;rating_value=2;rating_unit=stars"
+  },
+  {
+    "text": "Rate The 8-Week Cholesterol Cure three out of 6 .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The 8-Week Cholesterol Cure;best_rating=6;rating_value=three;rating_unit=out of 6"
+  },
+  {
+    "text": "rate this novel 3 out of 6 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=novel;best_rating=6;rating_unit=points;rating_value=3"
+  },
+  {
+    "text": "rate The Lives of John Lennon five points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Lives of John Lennon;best_rating=five;rating_unit=points"
+  },
+  {
+    "text": "Give The American Scene 2 of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The American Scene;best_rating=6;rating_value=2;rating_unit=stars"
+  },
+  {
+    "text": "Rate this textbook a one .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=;object_type=textbook;rating_value=one;rating_unit=one"
+  },
+  {
+    "text": "Give Summer of the Swans 1 points .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Summer of the Swans;rating_value=1;rating_unit=points"
+  },
+  {
+    "text": "Give the current textbook a rating of five .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=textbook;rating_value=five;rating_unit=stars"
+  },
+  {
+    "text": "Give 4 points to The Person and the Common Good",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Person and the Common Good;rating_value=4;rating_unit=points"
+  },
+  {
+    "text": "Give a four rating to A World Apart .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=A World Apart;best_rating=4;rating_unit=stars"
+  },
+  {
+    "text": "rate this chronicle 0 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=chronicle;rating_unit=points;rating_value=0"
+  },
+  {
+    "text": "Give Wilco: Learning How to Die a rating of four points .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Wilco: Learning How to Die;best_rating=four;rating_unit=points"
+  },
+  {
+    "text": "Rate this saga two out of 6 .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=book;object_part_of_series_type=saga;object_select=this;best_rating=6;rating_unit=out;rating_value=two"
+  },
+  {
+    "text": "rate The Gift: Imagination and the Erotic Life of Property five stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Gift: Imagination and the Erotic Life of Property;rating_value=five;rating_unit=stars"
+  },
+  {
+    "text": "rate Neverwhere four out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Neverwhere;best_rating=6;rating_value=four;rating_unit=out of 6"
+  },
+  {
+    "text": "Rate In the Company of Cheerful Ladies a zero out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=In the Company of Cheerful Ladies;best_rating=6;rating_value=zero;rating_unit=out of 6"
+  },
+  {
+    "text": "Give one start to the current book",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=book;rating_unit=stars;rating_value=one"
+  },
+  {
+    "text": "Give this chronicle a 2 rating.",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=chronicle;object_part_of_series_type=;rating_unit=;rating_value=2;best_rating=;rating_unit="
+  },
+  {
+    "text": "rate this essay a 1",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=essay;rating_value=1;rating_unit=a"
+  },
+  {
+    "text": "Out of 6 , give Rivers of Babylon a 1",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;best_rating=6;object_name=Rivers of Babylon;rating_value=1;rating_unit=6"
+  },
+  {
+    "text": "Give 5 of 6 stars to Expressive Processing",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Expressive Processing;best_rating=6;rating_value=5;rating_unit=stars"
+  },
+  {
+    "text": "rate The Ghost House series a one",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Ghost House series;object_type=series;rating_value=one"
+  },
+  {
+    "text": "rate Know Ye Not Agincourt ? 2 out of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Know Ye Not Agincourt;best_rating=6;rating_value=2;rating_unit=stars"
+  },
+  {
+    "text": "I would rate Theft: A Love Story four out of 6 stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Theft: A Love Story;best_rating=6;rating_unit=stars;rating_value=four"
+  },
+  {
+    "text": "Rate The Further Adventures of The Joker four stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Further Adventures of The Joker;object_type=book;rating_value=four;rating_unit=stars"
+  },
+  {
+    "text": "Give 0 rating to In the Heart of the Country",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=In the Heart of the Country;best_rating=0;object_type=book"
+  },
+  {
+    "text": "Give 1 out of 6 rating to the current textbook",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_name=textbook;best_rating=6;rating_unit=out of 6;object_type=book;rating_value=1"
+  },
+  {
+    "text": "give the current chronicle five of 6 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_name=chronicle;object_part_of_series_type=chronicle;rating_unit=points;rating_value=5;best_rating=6"
+  },
+  {
+    "text": "Rate Cotton Comes to Harlem a 2",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Cotton Comes to Harlem;rating_value=2"
+  },
+  {
+    "text": "Give this album one stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=album;rating_value=one;rating_unit=stars"
+  },
+  {
+    "text": "rate The Adventures of Augie March one points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Adventures of Augie March;rating_value=one;rating_unit=points"
+  },
+  {
+    "text": "Rate Soul Music a 0 .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Soul Music;rating_value=0;rating_unit=a;best_rating=0"
+  },
+  {
+    "text": "Give Hindu Temples: What Happened to Them a 5 out of 6 stars .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Hindu Temples;best_rating=6;rating_unit=stars"
+  },
+  {
+    "text": "Give this novel a 1 .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=novel;rating_value=1;rating_unit=points"
+  },
+  {
+    "text": "rate the current textbook 1 out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_name=textbook;best_rating=6;rating_unit=out of 6;rating_value=1;object_type=book"
+  },
+  {
+    "text": "Give this textbook 0 out of 6 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=this;object_type=textbook;best_rating=6;rating_unit=stars;rating_value=0"
+  },
+  {
+    "text": "Give The Crystal Snare 5 stars",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Crystal Snare;rating_value=5;rating_unit=stars"
+  },
+  {
+    "text": "Rate this saga two out of 6 .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=book;object_part_of_series_type=saga;best_rating=6;rating_unit=points;rating_value=2"
+  },
+  {
+    "text": "Give Wilco: Learning How to Die a rating of four points .",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=Wilco: Learning How to Die;best_rating=four;rating_unit=points"
+  },
+  {
+    "text": "Rate this book 3 stars out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_type=book;object_select=this;rating_value=3;rating_unit=stars;best_rating=6"
+  },
+  {
+    "text": "rate the Three Junes one out of 6",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Three Junes;best_rating=6;rating_unit=out of 6"
+  },
+  {
+    "text": "Give four stars to The Broken Window",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_name=The Broken Window;best_rating=4;rating_unit=stars"
+  },
+  {
+    "text": "Rate the current series 4 points",
+    "gold_intent": "RateBook",
+    "pred_intent": "Intent=RateBook",
+    "pred_slot": "Intent=RateBook;object_select=current;object_type=series;rating_unit=points;rating_value=4"
+  },
+  {
+    "text": "Wish to find the movie the Heart Beat",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=the Heart Beat"
+  },
+  {
+    "text": "Please look up the TV show , Vanity .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Vanity"
+  },
+  {
+    "text": "Get me the Elvis' Christmas Album TV show .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=Elvis' Christmas Album"
+  },
+  {
+    "text": "Please find me the saga , The Deep Six .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Deep Six;object_type=saga"
+  },
+  {
+    "text": "Wish to see the photograph with the name Live: Right Here",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Live: Right Here"
+  },
+  {
+    "text": "Looking for a novel called Death March",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Death March;object_type=novel"
+  },
+  {
+    "text": "Can you find me the work, The Curse of Oak Island ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Curse of Oak Island"
+  },
+  {
+    "text": "Please get me The Sacred and Profane Love Machine game .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Sacred and Profane Love Machine;object_type=game"
+  },
+  {
+    "text": "Need a creative work called Hit by Love",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Hit by Love"
+  },
+  {
+    "text": "search for the trailer for The Office",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Office"
+  },
+  {
+    "text": "Looking for a creative work called Plant Ecology",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Plant Ecology"
+  },
+  {
+    "text": "Find the television show To Me",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=To Me"
+  },
+  {
+    "text": "Can you please find me the saga Chump Change ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Chump Change"
+  },
+  {
+    "text": "Can you find me The Ridiculous 6 book ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Ridiculous 6;object_type=book"
+  },
+  {
+    "text": "Please fine me the TV series , Now We Are Married .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Now We Are Married"
+  },
+  {
+    "text": "Please look up the work, Bachelor Pad .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Bachelor Pad"
+  },
+  {
+    "text": "Please help me find the Late Night Heartbroken Blues television show .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Late Night Heartbroken Blues"
+  },
+  {
+    "text": "Please help me find, Bend It Like Beckham the Musical .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Bend It Like Beckham the Musical"
+  },
+  {
+    "text": "Please look up the TV series Parables for Wooden Ears .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Parables for Wooden Ears"
+  },
+  {
+    "text": "Can you find me, Hey Man ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Hey Man"
+  },
+  {
+    "text": "Please search for Switched .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Switched"
+  },
+  {
+    "text": "Can you get me the Controlled Conversations TV series ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Controlled Conversations TV series"
+  },
+  {
+    "text": "Please look up the song The Mad Magician .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=song;track=The Mad Magician"
+  },
+  {
+    "text": "Please search for the TV show , The Best of White Lion .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Best of White Lion"
+  },
+  {
+    "text": "Please find me Phineas Redux .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Phineas Redux"
+  },
+  {
+    "text": "Get me the Procession of Ants TV show .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Procession of Ants;object_type=TV show"
+  },
+  {
+    "text": "Looking for a game called Phinally Phamous",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Phinally Phamous"
+  },
+  {
+    "text": "Can you search the Daring Youth saga ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Daring Youth saga"
+  },
+  {
+    "text": "look for the book The Girl Who Was Plugged In",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Girl Who Was Plugged In;object_type=book"
+  },
+  {
+    "text": "Find me a TV show called Baby Blue",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Baby Blue"
+  },
+  {
+    "text": "Search for Appalachian Journey",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Appalachian Journey"
+  },
+  {
+    "text": "Look for the television show Meet the Prince",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Meet the Prince"
+  },
+  {
+    "text": "Can you find me Cracks the Safe ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Cracks the Safe"
+  },
+  {
+    "text": "Please help me search the Hell Money saga .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Hell Money saga"
+  },
+  {
+    "text": "Get me the Secret South song .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=song;artist=Secret South"
+  },
+  {
+    "text": "Can you find me the work titled Music for Millions ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Music for Millions"
+  },
+  {
+    "text": "Please search for the painting titled This Is the Night .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=This Is the Night"
+  },
+  {
+    "text": "Could you locate the Epic Conditions picture ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Epic Conditions;object_type=picture"
+  },
+  {
+    "text": "get me the trailer of Good Morning Sunshine",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Good Morning Sunshine"
+  },
+  {
+    "text": "Please search the An Introduction to Karl Marx painting .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=An Introduction to Karl Marx;object_type=painting"
+  },
+  {
+    "text": "Can you find me the Blue Spring trailer ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Blue Spring;object_type=trailer"
+  },
+  {
+    "text": "Could you find the TV series The Approach",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Approach"
+  },
+  {
+    "text": "Search for the TV show , A Lawless Street .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=A Lawless Street"
+  },
+  {
+    "text": "Please look up Three Essays on the Theory of Sexuality show .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Three Essays on the Theory of Sexuality;object_type=book"
+  },
+  {
+    "text": "Please get me the Compulsive Disclosure song .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=song;artist=Compulsive Disclosure"
+  },
+  {
+    "text": "Can you look up the Molecular Oncology saga ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Molecular Oncology saga"
+  },
+  {
+    "text": "Search for The Sound of One Hand Clapping",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Sound of One Hand Clapping"
+  },
+  {
+    "text": "Find the creative work Deadly Weapons",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Deadly Weapons"
+  },
+  {
+    "text": "Need the creative work called The Logic of Scientific Discovery",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Logic of Scientific Discovery"
+  },
+  {
+    "text": "Can you find me the National Anthem of the Ancient Britons television show ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=National Anthem of the Ancient Britons;object_type=television show"
+  },
+  {
+    "text": "Can you please find me the Harry Hood saga ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Harry Hood saga"
+  },
+  {
+    "text": "Can you find me the work, Bible translations into Hawaii Pidgin ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Bible translations into Hawaii Pidgin"
+  },
+  {
+    "text": "Please look up and find me Monty Python Live at the Hollywood Bowl .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Monty Python Live at the Hollywood Bowl"
+  },
+  {
+    "text": "Please search for Mary .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Mary"
+  },
+  {
+    "text": "Please search the game ATLA: All This Life Allows .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=ATLA: All This Life Allows"
+  },
+  {
+    "text": "Find me the novel with the name To Lose My Life …",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=To Lose My Life;object_type=novel"
+  },
+  {
+    "text": "Looking for a song with the title of Live at the Kings Center",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;track=Live at the Kings Center"
+  },
+  {
+    "text": "Can you find the American Bison photograph ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=American Bison photograph"
+  },
+  {
+    "text": "Can you find me the Free for All show ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Free for All show"
+  },
+  {
+    "text": "Please find me the Olympia 74 soundtrack .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Olympia 74 soundtrack"
+  },
+  {
+    "text": "Look for the album Slave to the Grind",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;Slot1=album;Slot2=Slave to the Grind"
+  },
+  {
+    "text": "Please find me the Projekt: The New Face of Goth .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Projekt: The New Face of Goth"
+  },
+  {
+    "text": "Can you get me the Message from God saga ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Message from God saga"
+  },
+  {
+    "text": "Find me the soundtrack A Honeymoon Adventure",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=A Honeymoon Adventure"
+  },
+  {
+    "text": "Please get me The Henderson Kids saga .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Henderson Kids saga"
+  },
+  {
+    "text": "Find the movie Splendor in the Grass",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Splendor in the Grass;object_type=movie"
+  },
+  {
+    "text": "Am looking for a book with the title Free to Play",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Free to Play"
+  },
+  {
+    "text": "Look for the TV series Jersey Boys",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Jersey Boys;object_type=TV series"
+  },
+  {
+    "text": "Can you search the book , Paris - When It Sizzles ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Paris - When It Sizzles;object_type=book"
+  },
+  {
+    "text": "Looking for a painting with the title With You",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=With You"
+  },
+  {
+    "text": "Please find me the Classified book .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Classified book"
+  },
+  {
+    "text": "Look for the show V-The New Mythology Suite",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=V-The New Mythology Suite"
+  },
+  {
+    "text": "Find the creative work Face Down",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Face Down"
+  },
+  {
+    "text": "Find Four Songs",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;music_item=track;track=Four Songs"
+  },
+  {
+    "text": "Find me the soundtrack Live at the Greek Theatre",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Live at the Greek Theatre"
+  },
+  {
+    "text": "Please search for the television show , Episodi di The Blacklist .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Episodi di The Blacklist"
+  },
+  {
+    "text": "Find a creative work called Fire in the Hole",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Fire in the Hole"
+  },
+  {
+    "text": "Looking for the picture with the name of Who Made Stevie Crye ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Who Made Stevie Crye"
+  },
+  {
+    "text": "Look for the album Wolves Within",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;Slot1=album;Slot2=Wolves Within"
+  },
+  {
+    "text": "Find the album Orphan Girl at the Cemetery",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Orphan Girl;object_type=album"
+  },
+  {
+    "text": "Please find me the Journal of the British Astronomical Association movie .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Journal of the British Astronomical Association;object_type=movie"
+  },
+  {
+    "text": "Find the TV show The Daydreamer",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Daydreamer"
+  },
+  {
+    "text": "Can you please get me the book Dracula 5: The Blood Legacy ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Dracula 5: The Blood Legacy;object_type=book"
+  },
+  {
+    "text": "Please look up the novel , Live to Dance .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Live to Dance;object_type=novel"
+  },
+  {
+    "text": "Please find me the video game titled 20 Hours in America .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=20 Hours in America;object_type=video game"
+  },
+  {
+    "text": "Find the creative work The Devil in Stitches",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Devil in Stitches"
+  },
+  {
+    "text": "Please look up the work, Prophets .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Prophets"
+  },
+  {
+    "text": "I'm looking for Welcome to the Canteen",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Welcome to the Canteen"
+  },
+  {
+    "text": "Please search for the Journal of Official Statistics show .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Journal of Official Statistics show"
+  },
+  {
+    "text": "Please look up Show-Biz Blues photograph .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Show-Biz Blues;object_type=photograph"
+  },
+  {
+    "text": "Please search the Woodsmen of the West .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Woodsmen of the West"
+  },
+  {
+    "text": "Can you find the creative works associated with Caryl & Marilyn: Real Friends",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Caryl & Marilyn: Real Friends"
+  },
+  {
+    "text": "Please get me the Dead Soul saga .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Dead Soul saga"
+  },
+  {
+    "text": "Please search the Live from Leeds album .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Live from Leeds;object_type=album"
+  },
+  {
+    "text": "Please look up the Johnny English - La rinascita painting .",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Johnny English - La rinascita;object_type=painting"
+  },
+  {
+    "text": "Can you find me The Sword with No Name trailer ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;Slot1=movie_name=The Sword with No Name"
+  },
+  {
+    "text": "I wish to watch The Fold trailer , please search.",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=The Fold;object_type=trailer"
+  },
+  {
+    "text": "Can you find me the ALMOST HUMAN painting ?",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=ALMOST HUMAN;object_type=painting"
+  },
+  {
+    "text": "Please find me the work, Serious Awesomeness !.",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Serious Awesomeness"
+  },
+  {
+    "text": "Search for the game Difficult Loves",
+    "gold_intent": "SearchCreativeWork",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Difficult Loves"
+  },
+  {
+    "text": "Is Babar: King of the Elephants playing",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Babar: King of the Elephants"
+  },
+  {
+    "text": "Is The Ghost playing",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=The Ghost"
+  },
+  {
+    "text": "Is Bartok the Magnificent playing at seven AM ?",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;timeRange=seven AM"
+  },
+  {
+    "text": "What's the movie schedule",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;object_location_type=movie theatre"
+  },
+  {
+    "text": "i want to see JLA Adventures: Trapped In Time",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=JLA Adventures: Trapped In Time"
+  },
+  {
+    "text": "when is The Fox and the Child playing in this cinema",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=this cinema;movie_name=The Fox and the Child"
+  },
+  {
+    "text": "show me the schedule for Rat Rod Rockers !",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=Rat Rod Rockers"
+  },
+  {
+    "text": "Is Any Which Way You Can playing in 15 seconds",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=Any Which Way You Can;timeRange=15 seconds"
+  },
+  {
+    "text": "I want to see The Portrait of a Lady at the nearest cinema .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=nearest;object_location_type=cinema;movie_name=The Portrait of a Lady;object_type=;timeRange=;movie_type="
+  },
+  {
+    "text": "Where can I see The Prime Ministers: The Pioneers",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=The Prime Ministers: The Pioneers"
+  },
+  {
+    "text": "I need to find the movie theatre showing The Crooked Web closest to me",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=closest;object_location_type=movie theatre;movie_name=The Crooked Web;object_type=;timeRange=;movie_type="
+  },
+  {
+    "text": "I want to see While the Sun Shines at the closest movie house .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=movie house;spatial_relation=closest;object_location_type=movie house;movie_name=While the Sun Shines"
+  },
+  {
+    "text": "I want to see Those Kids from Town , when will it be showing?",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=Those Kids from Town;object_location_type=cinema"
+  },
+  {
+    "text": "Find the schedule for The Comedian at Santikos Theatres .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Santikos Theatres;movie_name=The Comedian"
+  },
+  {
+    "text": "What are the movie schedules for my favorite theaters",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=my favorite theaters"
+  },
+  {
+    "text": "What are the movies showing in the neighbourhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=neighbourhood;object_location_type=cinema"
+  },
+  {
+    "text": "Is Without Witness playing twenty two hours from now",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=Without Witness;timeRange=twenty two hours from now"
+  },
+  {
+    "text": "I need animated movies in the area for dinner time",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_type=movie;location=the area;time=dinner time"
+  },
+  {
+    "text": "i want to see I Dream of Jeanie in a movie theatre",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=I Dream of Jeanie;object_location_type=movie theatre"
+  },
+  {
+    "text": "Can I see Ellis Island Revisited in 1 minute",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Ellis Island Revisited"
+  },
+  {
+    "text": "I want animated movies at MJR Theatres",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=MJR Theatres;object_location_type=cinema;movie_type=animated movies"
+  },
+  {
+    "text": "show me the schedule for The Oblong Box",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=The Oblong Box"
+  },
+  {
+    "text": "I want to know if there are any movies playing in the area .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;object_location_type=movie theatre;location_name=the area;spatial_relation=the area"
+  },
+  {
+    "text": "Is What a Wonderful Place showing at Cinemark Theatres",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Cinemark Theatres;movie_name=What a Wonderful Place"
+  },
+  {
+    "text": "show the closest movie theatre that shows Boycott",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=closest;object_location_type=movie theatre;movie_name=Boycott;object_type=;timeRange=;movie_type="
+  },
+  {
+    "text": "I want to see DOA: Dead or Alive at Loews Cineplex Entertainment .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Loews Cineplex Entertainment;movie_name=DOA: Dead or Alive;object_location_type=cinema"
+  },
+  {
+    "text": "is The Nightmare showing six hours from now at the nearest cinema .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=cinema;spatial_relation=nearest;object_location_type=cinema;movie_name=The Nightmare;timeRange=six hours from now"
+  },
+  {
+    "text": "What is the nearest movie house with Window Connection playing at lunch",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=nearest;object_location_type=movie house;movie_name=Window Connection;object_type=;timeRange=lunch;movie_type="
+  },
+  {
+    "text": "Is Patrick Still Lives showing at AMC Theaters",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=AMC Theaters;movie_name=Patrick Still Lives"
+  },
+  {
+    "text": "Fine the movie schedules for the Wanda Group .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Wanda Group"
+  },
+  {
+    "text": "Give me the movie schedule nearby",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=nearby;object_location_type=cinema;object_type=;timeRange=;movie_type=movies"
+  },
+  {
+    "text": "Find the schedule at the Douglas Theatre Company .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Douglas Theatre Company;object_location_type=movie theatre"
+  },
+  {
+    "text": "Show me the movies at Harkins Theatres .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Harkins Theatres"
+  },
+  {
+    "text": "what movies at Star Theatres .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Star Theatres"
+  },
+  {
+    "text": "I want a movie schedule .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;object_location_type=movie_theatre"
+  },
+  {
+    "text": "Can I get the movie times",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;object_location_type=cinema;movie_type=movies"
+  },
+  {
+    "text": "I want to see Medal for the General",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Medal for the General"
+  },
+  {
+    "text": "Can I get the times for movies in the neighbourhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=the neighbourhood;object_location_type=cinema;spatial_relation=nearby"
+  },
+  {
+    "text": "May I have the movie schedules for Speakeasy Theaters",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Speakeasy Theaters"
+  },
+  {
+    "text": "Find animated movies close by",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;object_type=animated movies;spatial_relation=close by"
+  },
+  {
+    "text": "Is American Primitive showing in Santikos Theatres",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Santikos Theatres;movie_name=American Primitive"
+  },
+  {
+    "text": "what are the movie schedules in the neighborhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=neighborhood;object_location_type=cinema"
+  },
+  {
+    "text": "Check the schedule for Bow Tie Cinemas .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Bow Tie Cinemas;object_location_type=cinema"
+  },
+  {
+    "text": "Check the timings for Snowbound at the closest movie theatre .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=movie theatre;spatial_relation=closest;object_location_type=movie theatre;movie_name=Snowbound"
+  },
+  {
+    "text": "What are the movie times at Caribbean Cinemas",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Caribbean Cinemas;object_location_type=cinema"
+  },
+  {
+    "text": "I need films in the neighborhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=neighborhood;object_location_type=cinema;spatial_relation=nearby"
+  },
+  {
+    "text": "Show the movie schedules in the neighborhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=neighborhood;object_location_type=cinema"
+  },
+  {
+    "text": "where's the nearest movie house showing foreign films",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=nearest;object_location_type=movie house;movie_type=foreign films"
+  },
+  {
+    "text": "What movies are showing now at the closest cinema ?",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=closest;object_location_type=cinema;timeRange=now"
+  },
+  {
+    "text": "Is Rumor Has It playing",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=Rumor Has It"
+  },
+  {
+    "text": "I need a list of Speakeasy Theaters movie times",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Speakeasy Theaters"
+  },
+  {
+    "text": "When is The Outer Space Connection playing at the nearest cinema .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=nearest;object_location_type=cinema;movie_name=The Outer Space Connection;object_type=;timeRange=;movie_type="
+  },
+  {
+    "text": "Find the movie times at Harkins Theatres .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Harkins Theatres"
+  },
+  {
+    "text": "Find the films at Century Theatres .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Century Theatres"
+  },
+  {
+    "text": "show the animated movies playing in the neighbourhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=neighbourhood;object_location_type=cinema;movie_type=animated movies"
+  },
+  {
+    "text": "I want to see Fear Chamber .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Fear Chamber"
+  },
+  {
+    "text": "Show me Southern Theatres movie times",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Southern Theatres;object_location_type=cinema"
+  },
+  {
+    "text": "Is The Unnaturals showing at 13 .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=The Unnaturals;timeRange=13"
+  },
+  {
+    "text": "Is No Time to Be Young showing at AMC Theaters",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=AMC Theaters;movie_name=No Time to Be Young"
+  },
+  {
+    "text": "Find the movie schedules for Regal Entertainment Group .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Regal Entertainment Group"
+  },
+  {
+    "text": "I want to see Shattered Image .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Shattered Image"
+  },
+  {
+    "text": "Find the schedule at Star Theatres .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Star Theatres"
+  },
+  {
+    "text": "Will I Think I Do be playing at 7 PM ?",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=I Think I Do;timeRange=7 PM"
+  },
+  {
+    "text": "Show me the schedule for ArcLight Hollywood for only animated movies",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=ArcLight Hollywood;object_location_type=cinema;movie_type=animated movies"
+  },
+  {
+    "text": "Find the schedule for Great Mail Robbery .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;object_location_type=cinema;movie_name=Great Mail Robbery"
+  },
+  {
+    "text": "Give me the movies in the neighborhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;Slot1=object_name;Slot2=location=neighborhood"
+  },
+  {
+    "text": "What movies are playing close by",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=close by;object_location_type=cinema;object_type=movies"
+  },
+  {
+    "text": "Is The Two Gladiators playing",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=PlayMusic",
+    "pred_slot": "Intent=PlayMusic;artist=The Two Gladiators"
+  },
+  {
+    "text": "What's the movie schedule for Great Escape Theatres",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Great Escape Theatres;object_location_type=cinema"
+  },
+  {
+    "text": "Find the movie schedule close by",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=close by;object_location_type=cinema;"
+  },
+  {
+    "text": "I want to see Outcast .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchCreativeWork",
+    "pred_slot": "Intent=SearchCreativeWork;object_name=Outcast"
+  },
+  {
+    "text": "show me the schedule of movie The Great Gildersleeve near movie house",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=movie house;object_location_type=movie house;spatial_relation=near;movie_name=The Great Gildersleeve"
+  },
+  {
+    "text": "I need times for A Yiddish World Remembered at Dipson Theatres",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Dipson Theatres;movie_name=A Yiddish World Remembered"
+  },
+  {
+    "text": "Find the movie schedules at Goodrich Quality Theaters .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Goodrich Quality Theaters;object_location_type=cinema"
+  },
+  {
+    "text": "show me the movie schedule in the neighbourhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=the neighbourhood;object_location_type=cinema"
+  },
+  {
+    "text": "show me the movie times for films nearby",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=nearby;object_location_type=cinema;movie_name=;movie_type=film"
+  },
+  {
+    "text": "show the movie times for animated movies in the neighbourhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=neighbourhood;object_location_type=cinema;movie_name=;movie_type=animated movies"
+  },
+  {
+    "text": "Is The Eye – Infinity playing at General Cinema Corporation",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=General Cinema Corporation;movie_name=The Eye – Infinity"
+  },
+  {
+    "text": "Can you check the timings for Super Sweet 16: The Movie ?",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=Super Sweet 16: The Movie"
+  },
+  {
+    "text": "is We Are Northern Lights playing in any movie theatre",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=We Are Northern Lights;object_location_type=movie theatre"
+  },
+  {
+    "text": "What times will The Young Swordsman be showing at my cinema ?",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=my cinema;movie_name=The Young Swordsman;object_location_type=cinema"
+  },
+  {
+    "text": "Show the Sexy Dance 2 times at the closest movie house",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=movie house;spatial_relation=closest;object_location_type=movie house;movie_name=Sexy Dance;object_type=movie"
+  },
+  {
+    "text": "what are some close by animated movies showing",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=close by;object_location_type=;movie_name=;object_type=;timeRange=showing;movie_type=animated movies"
+  },
+  {
+    "text": "movie schedules close by for animated movies",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;spatial_relation=close by;object_location_type=cinema;movie_type=animated movies"
+  },
+  {
+    "text": "what films are playing close by",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=close by;object_location_type=cinema;movie_name=;movie_type=film"
+  },
+  {
+    "text": "Find the movie schedule in the area .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=area;object_location_type=cinema"
+  },
+  {
+    "text": "Is Cowboy Canteen playing",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Cowboy Canteen"
+  },
+  {
+    "text": "Is Rare Birds showing at the nearest movie theatre at noon .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=nearest;object_location_type=movie theatre;movie_name=Rare Birds;timeRange=noon"
+  },
+  {
+    "text": "What are the movie times",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;object_location_type=movie theatre"
+  },
+  {
+    "text": "Where can I find the movie schedules",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;object_location_type=cinema;spatial_relation=;movie_name=;timeRange=;movie_type="
+  },
+  {
+    "text": "Find the movie schedule for North American Cinemas in eleven seconds .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=North American Cinemas;object_location_type=cinema"
+  },
+  {
+    "text": "Find the nearest cinema with movies playing",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=nearest;object_location_type=cinema;movie_name=;movie_type=movies"
+  },
+  {
+    "text": "what are the movie times",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;object_location_type=movie_theatre;timeRange=movie_times"
+  },
+  {
+    "text": "what are the times for The Gingerbread Man",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=GetWeather",
+    "pred_slot": "Intent=GetWeather;city=The Gingerbread Man"
+  },
+  {
+    "text": "What films are playing close by",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;spatial_relation=close by;object_location_type=cinema;object_type=films"
+  },
+  {
+    "text": "Is any cinema playing The Spirit of Youth",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=;object_location_type=cinema;movie_name=The Spirit of Youth;"
+  },
+  {
+    "text": "What are the movie times for animated movies in the neighbourhood",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=the neighbourhood;object_location_type=cinema;spatial_relation=nearby;movie_type=animated movies"
+  },
+  {
+    "text": "What's the movie schedule at Great Escape Theatres",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Great Escape Theatres;object_location_type=cinema"
+  },
+  {
+    "text": "Show the times for Cheers for Miss Bishop at Dipson Theatres .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;location_name=Dipson Theatres;movie_name=Cheers for Miss Bishop;object_location_type=movie theatre"
+  },
+  {
+    "text": "I want to see Married to the Enemy 2 at a cinema .",
+    "gold_intent": "SearchScreeningEvent",
+    "pred_intent": "Intent=SearchScreeningEvent",
+    "pred_slot": "Intent=SearchScreeningEvent;movie_name=Married to the Enemy 2;object_location_type=cinema"
+  }
+]
